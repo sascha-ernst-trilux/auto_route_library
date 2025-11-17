@@ -16,7 +16,11 @@ dependencies:
   lean_builder:
     git:
       url: https://github.com/Milad-Akarie/lean_builder.git
-  auto_route: ^10.2.0
+  auto_route:
+    git:
+      url: https://github.com/sascha-ernst-trilux/auto_route_library.git
+      path: auto_route
+
 
 dev_dependencies:
   lints: ^6.0.0
